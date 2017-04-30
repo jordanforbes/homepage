@@ -1,0 +1,29 @@
+{
+  "name": "main-site",
+  "version": "1.0.0",
+  "description": "main site for my work ",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "meteor-node-stubs": "~0.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirkobane/homepage.git"
+  },
+  "author": "Jordan Forbes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirkobane/homepage/issues"
+  },
+  "homepage": "https://github.com/kirkobane/homepage#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0"
+  }
+}
