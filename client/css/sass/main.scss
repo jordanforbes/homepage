@@ -1,7 +1,19 @@
 @import "bootstrap.min";
 
+div{
+	border:1px black dashed;
+}
 $bgcolor: white;
 body { 
   margin: 0; 
   background-color: $bgcolor; 
+}
+
+.profilepic{
+	width:100%;
+	
+}
+.profile{
+	border-radius:100%;
+	overflow:hidden;
 }
